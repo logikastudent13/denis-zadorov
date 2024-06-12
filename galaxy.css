@@ -1,0 +1,130 @@
+body {
+    font-family: sans-serif;
+}
+
+body{
+  background-image: url(https://images.wallpaperscraft.ru/image/single/kosmos_otkrytyj_kosmos_planety_135213_1920x1080.jpg);
+  margin: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-attachment: scroll;
+}
+
+header{
+  text-align: center;
+  padding-top: 07px;
+  color:white;
+  /* колір тексту */
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://99px.ru/sstorage/53/2014/06/tmb_105963_2159.jpg);
+  /* картинка на задній фон */
+
+}
+header img{
+width: 100px;
+}
+header h1 {
+  margin: 0;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  /* розмір тексту */
+
+}
+nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+}
+
+nav a{
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(98, 44, 150, 0.801);
+  transition: 1s;
+}
+
+
+.quote_article p {
+  color: white;
+  font-size: 20px;
+
+}
+.quote_article p span{
+  color: orange;
+  transition: 0.5s;
+}
+nav a:hover{
+  background-color: rgba(55, 184, 184, 0.781);
+}
+
+
+.quote_article:hover span{
+  font-size: 25px;
+}
+.planet_desc{
+  transition: 0.5s;
+}
+.planet_desc:hover{
+  font-size: 25px;
+}
+.planet_img{
+  width: 300px;
+  height: 300px;
+  margin-right: 20px;
+}
+
+.planet_section article{
+  display: flex;
+  color: white;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+main{
+  padding: 10px;
+}
+.current{
+    color: orange;
+}
+.videos_container h2 {
+color: white;
+text-align: center;
+}
+
+.videos_container div{
+  display:flex;
+  justify-content: space-around;
+}
+
+.videos_container div iframe{
+width: 300px;
+height: 200px;
+}
+
+footer{
+  color: white;
+}
+
+.quote_section h2 {
+  text-align: center;
+  color: white;
+}
+
+footer img{
+  transition: 0.3s;
+}
+footer img:hover{
+  width: 100px;
+  height: 100px;
+}
+
+.videos_container img{
+  width: 300px;
+
+}
