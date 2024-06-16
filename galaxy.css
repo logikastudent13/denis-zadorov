@@ -48,6 +48,7 @@ nav a{
   border-radius: 10px;
   background-color: rgba(98, 44, 150, 0.801);
   transition: 1s;
+    text-decoration:none;
 }
 
 
